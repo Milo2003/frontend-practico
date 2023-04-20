@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.container {
+    position: relative;
+    background-color: bisque;
+}
+div{
+    position: absolute;
+}
+
+
+.yellow {
+    background-color: yellow;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+}
+.blue {
+    
+    background-color: blue;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+}
+.red {
+    background-color: red;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+}
+
+.green {
+    background-color: greenyellow;
+    top: 70px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
